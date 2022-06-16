@@ -1,0 +1,134 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/  
+head {   
+     
+} 
+
+
+  
+h2, h3, h4, p {
+    text-shadow: 1px 3px 4px black;
+    color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: whitesmoke;
+    text-shadow: 1px 3px 4px black;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(#709ed6, #3c3b4d);
+    margin: 8px 0px 200px 0px;
+}
+#top-title1 {
+    font-size: 17px;
+    border-radius: 8px;
+    /* background: #3c3b4d; */
+    background:linear-gradient(#709ed6, #3c3b4d);
+    margin: -10px 270px 0px 270px;
+    }
+#top-title2 {
+    font-size: 16px;
+    /* background:#3c3b4d; */
+    background:linear-gradient(#709ed6, #3c3b4d);
+    border-radius: 8px;
+    margin: 480px 125px 0px 125px;
+
+} 
+#specialthanks-title3 {
+    margin-top: -10px;
+    font-size: 11px;
+}
+#top-img {
+    height: 599px;
+    width: 800px;
+    background-image:url(images/villemtl.jpg);
+    background-size: cover;
+    margin-bottom: 8px;
+    border-radius: 8px;
+
+}
+#top-img:hover {
+    background-image: url(images/pontjc.jpg);
+}
+.activities-wrapper {
+    display: flex;
+    background:linear-gradient(#3c3b4d, #709ed6);
+    width: 800px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+
+}
+.activities {
+    font-size: 15px;
+    margin: 25px auto 0px auto;
+}
+#activities-imgstade {
+    height: 125px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 5 auto;
+    border-radius: 50%;
+}
+#activities-imgvieux {
+    height: 125px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 5 auto;
+    border-radius: 50%;
+}
+#activities-imgronde {
+    height: 125px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 5 auto;
+    border-radius: 50%;
+}
+.guide-wrapper {
+    background:linear-gradient(#709ed6, #3c3b4d);
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;   
+}
+.guide {
+    display: flex;
+    background: linear-gradient(#26192a, #264a6a);
+    width: 450px;
+    padding: 20px;
+    border-left: 5px solid #4d75a9; 
+    border-right: 5px solid #4d75a9;
+    overflow: hidden;
+    position: relative;
+}
+.guide:before { 
+    content: '';
+    position:absolute;
+    left: 58%;
+    width: 90%; 
+    height: 200%; 
+    background-color: rgb(150, 150, 150); 
+    background-color: black; opacity: 15%;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.avatar {
+    width: 140px;
+}
+.guide-txt {
+    font-size: 13px;
+}
